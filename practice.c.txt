@@ -1,0 +1,78 @@
+swap two numbers
+
+#include<stdio.h>
+int main(){
+    int a,b,temp;
+    printf("enter number a=:   ");
+    scanf("%d",&a);
+    printf("enter number b=:   ");
+     scanf("%d",&b);
+    temp=a;
+    a=b;
+    b=temp;
+    printf("after swapping:a= %d,b= %d ",a,b);
+    
+    return 0;
+}
+
+
+
+#include<stdio.h>
+int main(){
+    int a,b;
+    printf("enter number a=:   ");
+    scanf("%d",&a);
+    printf("enter number b=:   ");
+     scanf("%d",&b);
+    a= a+b;
+    b= a-b;
+    a= a-b;
+    
+    
+    printf("after swapping:a= %d,b= %d ",a,b);
+    
+    return 0;
+}
+
+
+
+
+ASEII Value
+
+#include<stdio.h>
+int main(){
+   char c;
+   printf("enter a character:  ");
+   scanf("%c",&c);
+   
+   printf("The ASCII value of the Character is : %c=%d",c,c);
+    
+    return 0;
+}
+
+
+
+
+
+
+the largest  numbers 
+
+#include<stdio.h>
+int main(){
+  int a,b,c;
+  printf("enter three numbers:  ");
+  scanf("%d%d%d",&a, &b, &c);
+  
+  if(a>=b && b>=c){
+      printf("the largest is %d",a);
+     
+  }
+  else if(b>=a && b>=c){
+           printf("the largest is %d",b);
+  }
+  else{
+            printf("the largest is %d",c);
+  }
+    
+    return 0;
+}
